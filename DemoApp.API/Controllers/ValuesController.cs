@@ -15,7 +15,6 @@ namespace DemoApp.API.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            throw new Exception("Test Exception");
             return new string[] { "value1", "value2" };
         }
 
