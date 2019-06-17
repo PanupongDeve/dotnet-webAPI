@@ -12,3 +12,7 @@
 --- Vscode ----
 
 <br />https://code.visualstudio.com/
+
+--- Angular cli ----
+
+<br />https://angular.io/start/deployment
