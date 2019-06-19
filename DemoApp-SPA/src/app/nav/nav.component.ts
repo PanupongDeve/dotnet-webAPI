@@ -11,7 +11,7 @@ export class NavComponent implements OnInit {
   title = 'DemoApp-SPA';
   model:any = {};
 
-  constructor(private authServices: AuthService, private alertify: AlertifyService) { }
+  constructor(public authServices: AuthService, private alertify: AlertifyService) { }
 
   ngOnInit() {
   }
@@ -25,8 +25,7 @@ export class NavComponent implements OnInit {
   }
 
   loggedIn() {
-    const token = localStorage.getItem('token');
-    return !!token;
+    return this.authServices.loggedIn();
   }
 
   logout() {
