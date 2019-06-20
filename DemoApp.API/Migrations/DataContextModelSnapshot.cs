@@ -29,7 +29,7 @@ namespace DemoApp.API.Migrations
 
                     b.Property<string>("Url");
 
-                    b.Property<int?>("UserId");
+                    b.Property<int>("UserId");
 
                     b.HasKey("Id");
 
@@ -47,7 +47,7 @@ namespace DemoApp.API.Migrations
 
                     b.Property<string>("Country");
 
-                    b.Property<string>("Created");
+                    b.Property<DateTime>("Created");
 
                     b.Property<DateTime>("DateOfBirth");
 
@@ -56,6 +56,8 @@ namespace DemoApp.API.Migrations
                     b.Property<string>("Interests");
 
                     b.Property<string>("Introduction");
+
+                    b.Property<string>("KnownAs");
 
                     b.Property<DateTime>("LastActive");
 
@@ -86,9 +88,10 @@ namespace DemoApp.API.Migrations
 
             modelBuilder.Entity("DemoApp.API.Models.Photo", b =>
                 {
-                    b.HasOne("DemoApp.API.Models.User")
+                    b.HasOne("DemoApp.API.Models.User", "User")
                         .WithMany("Photos")
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }
