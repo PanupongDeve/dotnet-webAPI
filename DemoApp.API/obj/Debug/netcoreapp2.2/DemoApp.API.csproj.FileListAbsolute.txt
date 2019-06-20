@@ -12,3 +12,17 @@
 /home/panupong/Documents/LEARN/dotnet/DemoApp/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.RazorTargetAssemblyInfo.cache
 /home/panupong/Documents/LEARN/dotnet/DemoApp/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.dll
 /home/panupong/Documents/LEARN/dotnet/DemoApp/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.pdb
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/bin/Debug/netcoreapp2.2/DemoApp.API.deps.json
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/bin/Debug/netcoreapp2.2/DemoApp.API.runtimeconfig.json
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/bin/Debug/netcoreapp2.2/DemoApp.API.runtimeconfig.dev.json
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/bin/Debug/netcoreapp2.2/DemoApp.API.dll
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/bin/Debug/netcoreapp2.2/DemoApp.API.pdb
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.csprojAssemblyReference.cache
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.csproj.CoreCompileInputs.cache
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.RazorAssemblyInfo.cache
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.RazorAssemblyInfo.cs
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.AssemblyInfoInputs.cache
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.AssemblyInfo.cs
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.RazorTargetAssemblyInfo.cache
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.dll
+/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/Debug/netcoreapp2.2/DemoApp.API.pdb

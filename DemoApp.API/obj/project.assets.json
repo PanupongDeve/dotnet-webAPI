@@ -12475,11 +12475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/panupong/Documents/LEARN/dotnet/DemoApp/DemoApp.API/DemoApp.API.csproj",
+      "projectUniqueName": "/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/DemoApp.API.csproj",
       "projectName": "DemoApp.API",
-      "projectPath": "/home/panupong/Documents/LEARN/dotnet/DemoApp/DemoApp.API/DemoApp.API.csproj",
+      "projectPath": "/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/DemoApp.API.csproj",
       "packagesPath": "/home/panupong/.nuget/packages/",
-      "outputPath": "/home/panupong/Documents/LEARN/dotnet/DemoApp/DemoApp.API/obj/",
+      "outputPath": "/home/panupong/Documents/LEARN/dotnet/dotnet-webAPI/DemoApp.API/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
