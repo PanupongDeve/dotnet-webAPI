@@ -1,4 +1,6 @@
 using System;
+using System.Collections.Generic;
+using DemoApp.API.Models;
 
 namespace DemoApp.API.Dtos
 {
@@ -29,5 +31,7 @@ namespace DemoApp.API.Dtos
         public string Country { get; set; }
 
         public string PhotoUrl { get; set; }
+
+         public ICollection<PhotosForDetailedDto> Photos { get; set; }
     }
 }
