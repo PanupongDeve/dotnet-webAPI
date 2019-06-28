@@ -16,6 +16,7 @@ import { MemterListComponent } from './memter-list/memter-list.component';
 import { ListsComponent } from './lists/lists.component';
 import { MessagesComponent } from './messages/messages.component';
 import { AuthGuard } from './_guards/auth.guard';
+import { UserService } from './_services/user.service';
 @NgModule({
    declarations: [
       AppComponent,
@@ -37,6 +38,7 @@ import { AuthGuard } from './_guards/auth.guard';
       AuthService,
       ErrorInterceptorProvide,
       AlertifyService,
+      UserService,
       AuthGuard
    ],
    bootstrap: [
