@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { User } from '../../_models/user';
 import { UserService } from '../../_services/user.service';
 import { AlertifyService } from '../../_services/alertify.service';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-memter-list',
@@ -11,10 +12,18 @@ import { AlertifyService } from '../../_services/alertify.service';
 export class MemterListComponent implements OnInit {
   users: User[];
 
-  constructor(private userServices: UserService, private alertify: AlertifyService) { }
+  constructor(private userServices: UserService,
+              private alertify: AlertifyService,
+              private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.loadUsers();
+    this.loadUsersWithResolver();
+  }
+
+  loadUsersWithResolver() {
+    this.route.data.subscribe(data => {
+      this.users = data['users'];
+    });
   }
 
   loadUsers() {
