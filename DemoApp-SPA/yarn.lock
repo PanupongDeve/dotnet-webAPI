@@ -4249,6 +4249,11 @@ ngx-bootstrap@^4.3.0:
   resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-4.3.0.tgz#4c2213c082787701711c991ae728adaed035e637"
   integrity sha512-ZPS6V2yLEeqB/7KIlVohS8qUdtFa1bgUB/sSPWRcXqOWU3EKhORetZoXG6m2F5ILYDe5hwQvBEjdHPlEz2piOg==
 
+ngx-gallery@5.3.2:
+  version "5.3.2"
+  resolved "https://registry.yarnpkg.com/ngx-gallery/-/ngx-gallery-5.3.2.tgz#c93c252754b5eb3d5588a4e02ff0cee28f5b7968"
+  integrity sha512-hvqbPIR4ONcw5GwwRbOQU8BA9qynYXeWh+LEOzRWkg9kxSOPXVCYvwnWSRXvc8W5GMVj+ks2DcBEBzgcQyKPhg==
+
 nice-try@^1.0.4:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"

@@ -40,6 +40,7 @@ namespace DemoApp.API
                 .AddJsonOptions(opt => {
                     opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
                 });
+            services.Configure<CloundinarySettings>(Configuration.GetSection("CloundinarySettings"));
             services.AddCors();
             services.AddAutoMapper();
             services.AddTransient<Seed>();
